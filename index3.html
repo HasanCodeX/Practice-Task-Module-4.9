@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament Bracket</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Tournament Bracket</caption>
+        <tr>
+            <th>Round 1</th>
+            <th>Round 2</th>
+            <th>Round 3</th>
+            <th>Final</th>
+        </tr>
+        <tr>
+            <td>Team A</td>
+            <td rowspan="2">Winner 1</td>
+            <td rowspan="4">Winner 3</td>
+            <th rowspan="8"><b>Champion</b></th>
+        </tr>
+        <tr>
+            <td>Team B</td>
+        </tr>
+        <tr>
+            <td>Team C</td>
+            <td rowspan="2">Winner 2</td>
+        </tr>
+        <tr>
+            <td>Team D</td>
+        </tr>
+        <tr>
+            <td>Team E</td>
+            <td rowspan="2">Winner 4</td>
+            <td rowspan="4">Winner 6</td>
+        </tr>
+        <tr>
+            <td>Team F</td>
+        </tr>
+        <tr>
+            <td>Team G</td>
+            <td rowspan="2">Winner 5</td>
+        </tr>
+        <tr>
+            <td>Team H</td>
+        </tr>
+    </table>
+</body>
+</html>
