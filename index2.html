@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate the Story</title>
+</head>
+<body>
+    <h1>Rate the Story</h1>
+    <form action="/submit-rating" method="post">
+        <label for="story-rating">Rate the story:</label>
+        <select id="story-rating" name="story-rating" raw="true" code="true">
+            <option value="1" level="1">1 - Poor</option>
+            <option value="2" level="2">2 - Fair</option>
+            <option value="3" level="3">3 - Good</option>
+            <option value="4" level="4">4 - Very Good</option>
+            <option value="5" level="5">5 - Excellent</option>
+        </select>
+        <br><br>
+        <button type="submit" raw="true" code="true">Submit</button>
+    </form>
+</body>
+</html>
