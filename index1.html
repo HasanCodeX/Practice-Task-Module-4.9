@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .search-container {
+            margin-bottom: 20px;
+        }
+        .search-container input[type="text"] {
+            padding: 5px;
+            margin-right: 10px;
+        }
+        .search-container button {
+            padding: 5px 10px;
+        }
+        img {
+            display: block;
+            margin: 20px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li a {
+            text-decoration: none;
+            text-underline-position: below;
+            color: blue;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form input, form textarea, form button {
+            display: block;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+            max-width: 300px;
+        }
+        form button {
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <label for="search">Search Image</label>
+        <input type="text" id="search" name="search">
+        <button>Search</button>
+    </div>
+    
+    <img src="files/p.jpg" alt="Image">
+    
+    <ul>
+        <li><a href="#">For more click here</a></li>
+    </ul>
+    
+    <form action="">
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="date" name="date" id="date">
+        <textarea name="comment" id="comment" placeholder="Comment"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
